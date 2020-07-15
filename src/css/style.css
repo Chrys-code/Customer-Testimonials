@@ -1,7 +1,7 @@
 .max-height {
   min-height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../src/images/background.jpg") center/cover no-repeat fixed;
+    url("../../src/images/background.jpg") center/cover no-repeat fixed;
 }
 .title-heading {
   color: #f15025;
