@@ -1,7 +1,7 @@
 .max-height {
   min-height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../img/questionBcg.jpeg") center/cover no-repeat fixed;
+    url("../src/images/background.jpg") center/cover no-repeat fixed;
 }
 .title-heading {
   color: #f15025;
@@ -12,10 +12,8 @@
 .customer-card {
   background: transparent !important;
   color: white;
-  border: 0.05rem solid white;
-  padding-bottom: 1rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  border: 0.1rem solid white;
+  padding: 0rem 1rem 1rem 1rem;
   position: relative;
 }
 .img-card {
@@ -33,23 +31,21 @@
 .prevBtn,
 .nextBtn {
   font-size: 1.5rem;
-  padding: 0.1rem;
+  padding: 2px;
   color: #f15025;
   border: 0.1rem solid #f15025;
   display: inline-block;
   position: absolute;
-  padding: 0.4rem;
-  border-radius: 50%;
-  transition: all 1s ease-in-out;
+  padding: 2rem;
+  border-radius: 5%;
+  transition: all 0.3s ease-in-out;
 }
-.prevBtn:hover {
-  background: #f15025;
-  color: white;
-}
+.prevBtn:hover,
 .nextBtn:hover {
   background: #f15025;
   color: white;
 }
+
 .prevBtn {
   top: 50%;
   left: 0;
